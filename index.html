@@ -36,6 +36,9 @@
 
             <nav class="header__nav" id="header-nav" aria-label="メインナビゲーション">
                 <a href="#about" class="header__nav-link">まちハロとは</a>
+                <a href="#flyer" class="header__nav-link">フライヤー</a>
+                <a href="#timetable" class="header__nav-link">タイムテーブル</a>
+                <a href="#events" class="header__nav-link">イベント</a>
                 <a href="#info" class="header__nav-link">開催概要</a>
                 <a href="#faq" class="header__nav-link">よくある質問</a>
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSd3BJRNs7r-1VBXGcItKG9MGoy-5VTKKYv8E7tITdoLcZcURQ/viewform" target="_blank" rel="noopener noreferrer" class="header__nav-btn">参加フォーム</a>
@@ -197,6 +200,130 @@
                     <p class="about__text">
                         「まちハロ」は、町田で開催されるハロウィンフェスティバル。ステージ、ワークショップ、フォトスポットなど、大人も子どもも楽しめる企画が盛りだくさん！ご家族やご友人と一緒に、ぜひお気軽にお越しください。
                     </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FLYER ==================== -->
+    <section class="section flyer" id="flyer">
+        <svg class="edge" viewBox="0 0 390 30" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M0 30 C64 10 118 28 178 16 C238 4 288 26 340 18 C362 14 378 20 390 14 L390 0 L0 0 Z" fill="#FAF7F2"/>
+        </svg>
+        <div class="wrap">
+            <div class="sec-head reveal">
+                <p class="eyebrow"><i></i>FLYER<i></i></p>
+                <h2 class="sec-title">イベントフライヤー</h2>
+            </div>
+
+            <div class="flyer-grid">
+                <div class="flyer-card reveal" style="--delay:0s" id="flyer-front-card">
+                    <img src="assets/flyer-front.jpg" alt="まちハロ フライヤー 表面" width="768" height="1024" loading="lazy">
+                    <p class="flyer-label">表面</p>
+                </div>
+                <div class="flyer-card flyer-card--soon reveal" style="--delay:.12s">
+                    <div class="flyer-coming-soon">
+                        <svg viewBox="0 0 60 60" aria-hidden="true" class="flyer-coming-icon">
+                            <rect x="6" y="10" width="48" height="40" rx="8" fill="none" stroke="var(--sage)" stroke-width="2"/>
+                            <path d="M18 28 L30 20 L42 28" fill="none" stroke="var(--coral)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle cx="22" cy="36" r="3" fill="var(--yellow)"/>
+                        </svg>
+                        <p class="flyer-coming-title">裏面は後日公開</p>
+                        <p class="flyer-coming-sub">お楽しみに！</p>
+                    </div>
+                    <p class="flyer-label">裏面</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== TIMETABLE ==================== -->
+    <section class="section timetable" id="timetable">
+        <div class="wrap">
+            <div class="sec-head reveal">
+                <p class="eyebrow"><i></i>TIMETABLE<i></i></p>
+                <h2 class="sec-title">タイムテーブル</h2>
+            </div>
+
+            <div class="timetable-wrap reveal">
+                <div class="timetable-coming-box">
+                    <svg viewBox="0 0 60 60" aria-hidden="true" class="timetable-icon">
+                        <circle cx="30" cy="30" r="24" fill="none" stroke="var(--sage)" stroke-width="2"/>
+                        <path d="M30 16 V30 L40 36" fill="none" stroke="var(--coral)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="30" cy="30" r="2.5" fill="var(--yellow)"/>
+                    </svg>
+                    <p class="timetable-cs-title">近日公開予定</p>
+                    <p class="timetable-cs-sub">タイムテーブルは現在準備中です。<br>もうしばらくお待ちください！</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== EVENTS ==================== -->
+    <section class="section events" id="events">
+        <div class="wrap">
+            <div class="sec-head reveal">
+                <p class="eyebrow"><i></i>EVENTS<i></i></p>
+                <h2 class="sec-title">イベント内容</h2>
+            </div>
+
+            <div class="events-grid">
+                <div class="event-card reveal" style="--delay:0s">
+                    <div class="event-svg">
+                        <svg viewBox="0 0 60 60" aria-hidden="true">
+                            <circle cx="30" cy="18" r="8" fill="none" stroke="var(--green)" stroke-width="1.8"/>
+                            <path d="M30 26 V44" stroke="var(--green)" stroke-width="1.8" stroke-linecap="round"/>
+                            <path d="M22 34 L30 30 L38 34" stroke="var(--coral)" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+                            <path d="M24 44 L30 38 L36 44" stroke="var(--green)" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+                            <circle cx="44" cy="12" r="3" fill="var(--yellow)" opacity=".6"/>
+                            <circle cx="16" cy="14" r="2" fill="var(--coral)" opacity=".5"/>
+                        </svg>
+                    </div>
+                    <h3>ダンスパフォーマンス</h3>
+                    <p class="event-desc">DICrew による迫力のダンスステージ！みんなで盛り上がろう！</p>
+                </div>
+
+                <div class="event-card reveal" style="--delay:.1s">
+                    <div class="event-svg">
+                        <svg viewBox="0 0 60 60" aria-hidden="true">
+                            <ellipse cx="30" cy="38" rx="14" ry="8" fill="none" stroke="var(--green)" stroke-width="1.8"/>
+                            <path d="M16 38 V24 Q16 14 30 14 Q44 14 44 24 V38" fill="none" stroke="var(--green)" stroke-width="1.8"/>
+                            <path d="M24 28 L30 22 L36 28" fill="none" stroke="var(--coral)" stroke-width="1.8" stroke-linecap="round"/>
+                            <circle cx="30" cy="34" r="2" fill="var(--yellow)"/>
+                            <circle cx="46" cy="18" r="2.5" fill="var(--yellow)" opacity=".5"/>
+                        </svg>
+                    </div>
+                    <h3>歌・ライブ</h3>
+                    <p class="event-desc">DICrew が届ける心に響く歌のステージ。一緒に歌って楽しもう！</p>
+                </div>
+
+                <div class="event-card reveal" style="--delay:.2s">
+                    <div class="event-svg">
+                        <svg viewBox="0 0 60 60" aria-hidden="true">
+                            <path d="M14 46 Q14 18 30 14 Q46 18 46 46" fill="none" stroke="var(--green)" stroke-width="1.8" stroke-linecap="round"/>
+                            <path d="M14 46 L46 46" stroke="var(--green)" stroke-width="1.8" stroke-linecap="round"/>
+                            <path d="M30 14 L30 8" stroke="var(--green)" stroke-width="1.8" stroke-linecap="round"/>
+                            <path d="M30 8 L38 10 L30 12 Z" fill="var(--yellow)"/>
+                            <path d="M22 30 L30 24 L38 30" fill="none" stroke="var(--coral)" stroke-width="1.5" stroke-linecap="round"/>
+                            <circle cx="30" cy="38" r="3" fill="var(--blue)" opacity=".4"/>
+                        </svg>
+                    </div>
+                    <h3>ワークショップ</h3>
+                    <p class="event-desc">大人も子どもも楽しめる体験型ワークショップ。詳細は近日公開！</p>
+                </div>
+
+                <div class="event-card reveal" style="--delay:.3s">
+                    <div class="event-svg">
+                        <svg viewBox="0 0 60 60" aria-hidden="true">
+                            <rect x="12" y="18" width="36" height="28" rx="6" fill="none" stroke="var(--green)" stroke-width="1.8"/>
+                            <circle cx="24" cy="32" r="4" fill="var(--coral)" opacity=".4"/>
+                            <circle cx="36" cy="32" r="4" fill="var(--blue)" opacity=".4"/>
+                            <path d="M24 32 L36 32" stroke="var(--yellow)" stroke-width="1.8" stroke-linecap="round"/>
+                            <circle cx="30" cy="12" r="3" fill="var(--yellow)"/>
+                        </svg>
+                    </div>
+                    <h3>フォトスポット</h3>
+                    <p class="event-desc">ハロウィン仮装で記念撮影！思い出をたくさん作ろう！</p>
                 </div>
             </div>
         </div>
